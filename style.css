@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background: #F3F5FC;
+
+}
+
+.container{
+    margin: auto;
+    width: 1440px;
+    height: 1024px;
+    padding: 5px;
+    left: -2277px;
+    top: 622px;
+ 
+}
+.logo{
+width: 100%;
+float: left;
+
+
+}
+.left{
+float: left;
+width:70%;
+height: 70%;
+border-radius: 24px;
+
+}
+
+
+.right{
+float: right;
+text-align: center;
+width: 30%;
+height: 84%;
+border-radius: 24px;
+background: #FFFF;
+}
+.left-button{
+float:left;
+width: 70%;
+height: auto;
+border-radius: 24px;
+
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 31.09px;
+    height: 48px;
+    left: 44px;
+
+    float: inherit;   
+}
+
+.text-input{
+    float: left;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 577px;
+    height: 48px;
+    color: #0A3871;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    top: 168px;
+    left: 240px;
+}
+p{
+    margin-left: 15%;
+}
+#imgDer{
+    margin-left: 2%;
+margin-top: 20%;
+width: 90%;
+height: auto;
+top: 283px;
+left: 1032px;
+}
+#texto #texto2{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.texto22{
+   float: left;
+   margin-left: 10%;  
+   margin-top: 10%;
+   color: #0A3871;   
+   width: 336px;
+   height: 48px;
+   top: 74px;
+   border: none;
+   outline: none;
+   font-size: 16px;  
+   line-height: 24px;
+   display: block;
+   resize: none;
+}
+
+#btn-encriptar{
+padding: 24px;
+width: 328px;
+height: 67px;
+border-radius: 24px;
+margin-left: 15%;
+gap: 8px;
+background: #0A3871;
+color: #fff;
+font-size: 16px;
+}
+#btn-desencriptar{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    margin-left: 10%;
+    gap: 8px;
+    padding: 10px;
+    background: #D8DFE8;   
+    margin: 5px; 
+    font-size: 16px;
+}
+#copiar{
+    margin-left: 12%;
+    margin-top: 177.5%;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    gap: 8px;
+    background: #FFFF;
+    border-radius: 24px;
+    display: none;
+}
+::placeholder{
+    color:#0A3871;
+}
+
+#texto{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    color: solid; 
+}
